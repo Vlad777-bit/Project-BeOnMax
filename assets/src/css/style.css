@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    background-image: url(../img/slider/slider.jpg);
+    height: 800px;
+}
