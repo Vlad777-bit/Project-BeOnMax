@@ -200,3 +200,146 @@ h1.title {
     left: -240px;
     z-index: -1;
 }
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url("../img/icons/finish_slider.jpg") center center/cover no-repeat;
+}
+
+.finish_header {
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #efefef;
+    text-align: center;
+}
+
+.finish_result {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+.finish_block {
+    width: 204px;
+}
+
+.result_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.result_text {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #efefef;
+    text-align: center;
+}
+
+.gift {
+    padding: 80px 0 0 0;
+    min-height: 628px;
+    background-color: #efefef;
+}
+
+.img_gift {
+    display: flex;
+    justify-content: center;
+}
+
+.gift_text {
+    margin-top: 42px;
+    width: 1131px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #252525;
+    text-align: center;
+}
+
+.gift_btn {
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+
+.first_web {
+    margin-top: 89px;
+    min-height: 515px;
+}
+
+.web_content {
+    text-align: center;
+}
+
+.start_web {
+    margin-top: 37px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.data {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+}
+
+.sign_up {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    color: #4a4a4a;
+}
+
+footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding-top: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+
+.links span {
+    color: #888888;
+    margin: 0 5px 0 5px;
+}
+
+.link {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #888888;
+    text-decoration: underline;
+}
+
+.call_us {
+    text-align: center;
+}
+
+
+
