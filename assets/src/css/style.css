@@ -4,13 +4,14 @@
 
 .slider {
     background: url(../img/slider/slider.jpg) center center/cover no-repeat;
-    height: 800px;
+    min-height: 800px;
 }
 
 .container {
     width: 1140px;
     margin: 0 auto;
     padding: 39px 13px 62px 13px;
+    position: relative;
 }
 
 .logo_text {
@@ -76,11 +77,11 @@ h1.title {
     width: 321px;
     height: 80px;
     background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
-    border: 4px solid rgba(0,0,0,0.22);
+    border: 4px solid rgba(0, 0, 0, 0.22);
     cursor: pointer;
     margin: 69px auto;
     /*TEXT*/
-    box-shadow: -1px -1px 0 0 rgba(0,0,0,0.21);
+    box-shadow: -1px -1px 0 0 rgba(0, 0, 0, 0.21);
     font-family: RobotoCondensed;
     font-size: 21px;
     line-height: 24px;
@@ -106,7 +107,10 @@ h1.title {
     margin-top: 13px;
 }
 
-.intensive {}
+.intensive {
+    background-color: #efefef;
+    min-height: 602px;
+}
 
 .intensive_title {
     font-family: Roboto;
@@ -141,6 +145,7 @@ h1.title {
     margin-top: 45px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .intensive_product-1,
@@ -150,6 +155,7 @@ h1.title {
 }
 
 .product_text {
+    margin-top: 33px;
     font-family: Roboto;
     font-size: 15px;
     line-height: 21px;
@@ -157,4 +163,40 @@ h1.title {
     color: #4a4a4a;
     width: 340px;
     text-align: center;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization_header {
+    margin-top: -25px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+    margin-left: 390px;
+}
+
+.optimization_text {
+    margin-top: 25px;
+    width: 750px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin-left: 390px;
+}
+
+.optimization_text span {
+    font-weight: 700;
+}
+
+.woman {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
 }
