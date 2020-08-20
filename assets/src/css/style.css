@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .slider {
     background: url(../img/slider/slider.jpg) center center/cover no-repeat;
     min-height: 800px;
@@ -48,7 +52,6 @@ h1.title {
 .simple {
     font-family: Roboto;
     font-size: 80px;
-    line-height: 24px;
     font-weight: 900;
     text-transform: uppercase;
     color: #ffffff;
@@ -82,7 +85,6 @@ h1.title {
     margin: 69px auto;
     /*TEXT*/
     box-shadow: -1px -1px 0 0 rgba(0, 0, 0, 0.21);
-    font-family: RobotoCondensed;
     font-size: 21px;
     line-height: 24px;
     font-weight: 400;
@@ -173,7 +175,7 @@ h1.title {
 .optimization_header {
     margin-top: -25px;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 29px;
     font-weight: 900;
     text-transform: uppercase;
     color: #299cbd;
