@@ -20,79 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9630cd90-fbef-485d-bfe5-ee3d2104a338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project Uber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UBER_course.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/promo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/promo/promo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/box/gift.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/icons/finish_slider.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/icons/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/icons/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/icons/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/icons/icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/icons/icon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/optimization/woman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/products/product1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/products/product2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/products/product3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/products/product4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/slider/arrow_down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/slider/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/slider/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/assets/src/img/slider/slider.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project WebPress/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/box/gift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/icons/finish_slider.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/icons/icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/icons/icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/icons/icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/icons/icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/icons/icon5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/optimization/woman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/products/product1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/products/product2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/products/product3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/products/product4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/slider/arrow_down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/slider/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/slider/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/src/img/slider/slider.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/icon8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,8 +58,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -130,6 +71,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -145,7 +88,11 @@
       <option name="presentableId" value="Default" />
       <updated>1598120305009</updated>
       <workItem from="1598120306050" duration="533000" />
-      <workItem from="1598348276487" duration="5381000" />
+      <workItem from="1598348276487" duration="8338000" />
+      <workItem from="1598436199030" duration="90000" />
+      <workItem from="1598436306122" duration="4201000" />
+      <workItem from="1598446302326" duration="2204000" />
+      <workItem from="1598450130215" duration="2083000" />
     </task>
     <servers />
   </component>
@@ -166,5 +113,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1050" y="197" width="800" height="719" key="#Plugins" timestamp="1598436568327">
+      <screen x="62" y="26" width="1858" height="1054" />
+    </state>
+    <state x="1050" y="197" width="800" height="719" key="#Plugins/62.26.1858.1054@62.26.1858.1054" timestamp="1598436568327" />
+    <state x="1133" y="290" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598436259441">
+      <screen x="62" y="26" width="1858" height="1054" />
+    </state>
+    <state x="1133" y="290" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/62.26.1858.1054@62.26.1858.1054" timestamp="1598436259441" />
   </component>
 </project>
