@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9630cd90-fbef-485d-bfe5-ee3d2104a338" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/icons/icon1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/icons/icon2.png" afterDir="false" />
@@ -29,6 +30,8 @@
       <change afterPath="$PROJECT_DIR$/src/img/icons/icon6.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/icons/icon7.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/img/icons/icon8.png" afterDir="false" />
+=======
+>>>>>>> ebcdad8... Ready promo
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
@@ -72,7 +75,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+<<<<<<< HEAD
     <property name="vue.rearranger.settings.migration" value="true" />
+=======
+>>>>>>> ebcdad8... Ready promo
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -89,10 +95,13 @@
       <updated>1598120305009</updated>
       <workItem from="1598120306050" duration="533000" />
       <workItem from="1598348276487" duration="8338000" />
+<<<<<<< HEAD
       <workItem from="1598436199030" duration="90000" />
       <workItem from="1598436306122" duration="4201000" />
       <workItem from="1598446302326" duration="2204000" />
       <workItem from="1598450130215" duration="2083000" />
+=======
+>>>>>>> ebcdad8... Ready promo
     </task>
     <servers />
   </component>
