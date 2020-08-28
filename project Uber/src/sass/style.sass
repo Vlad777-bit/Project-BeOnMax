@@ -1,5 +1,9 @@
+$color_blue: #1eacc7
+$color_pink: #ff5656
+$color_white: #ffffff
+
 *
-  	font-family: 'Roboto', sans-serif
+	font-family: 'Roboto', sans-serif
 
 header
 	position: relative
@@ -126,7 +130,7 @@ nav
 	text-transform: uppercase
 
 .reasons
-  	padding: 71px 0 65px 0
+	padding: 71px 0 65px 0
 
 .label
 	margin: 0 auto
@@ -138,6 +142,7 @@ nav
 	font-size: 11px
 	font-weight: 300
 	text-transform: uppercase
+	text-align: center
 
 .title
 	margin-bottom: 0
@@ -154,7 +159,7 @@ nav
 	color: #222222
 	font-size: 17px
 	font-weight: 400
-	text-align: center	
+	text-align: center
 
 .reasons .reasons_block
 	display: flex
@@ -169,23 +174,23 @@ nav
 	margin-right: 26px
 	width: 113px
 	height: 113px
-	background-color: #1eacc7
+	background-color: $color_blue
 	border-radius: 100%
 
 .reasons_descr
- 	 width: 343px
+	width: 343px
 
 .reasons_subtitle
 	line-height: 21px
-	color: #1eacc7
+	color: $color_blue
 	font-size: 17px
 	font-weight: 400
 
 .reasons_text
-		color: #202020
-		font-size: 15px
-		font-weight: 300
-		line-height: 21px
+	color: #202020
+	font-size: 15px
+	font-weight: 300
+	line-height: 21px
 
 .mobile
 	min-height: 864px
@@ -233,3 +238,29 @@ nav
 			margin: 0 auto
 			border-radius: 100%
 			cursor: pointer
+
+.uberx
+	min-height: 896px
+	padding: 56px 0 138px 0
+	background: url('../img/bg/auto_bg.jpg') center (center / cover) no-repeat
+	.label
+		background-color: $color_white
+		color: #070716
+	.title
+		margin-top: 32px
+		color: $color_white
+		line-height: 30px
+	.subtitle
+		margin-top: 19px
+		color: $color_white
+		line-height: 19px
+	&_img
+		margin-top: 56px
+		text-align: center
+	&_text
+		margin-top: 4px
+		font-size: 17px
+		font-weight: 300
+		line-height: 24px
+		color: #222222
+		text-align: center
