@@ -2,6 +2,11 @@ $color_blue: #1eacc7
 $color_pink: #ff5656
 $color_white: #ffffff
 
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: $color_blue
+
 *
 	font-family: 'Roboto', sans-serif
 
@@ -81,6 +86,7 @@ nav
 	font-size: 14px
 	font-weight: 400
 	text-transform: uppercase
+	+btn_hover
 
 .promo
 	min-height: 800px
@@ -128,6 +134,7 @@ nav
 	font-size: 18px
 	font-weight: 400
 	text-transform: uppercase
+	+btn_hover
 
 .reasons
 	padding: 71px 0 65px 0
@@ -238,6 +245,24 @@ nav
 			margin: 0 auto
 			border-radius: 100%
 			cursor: pointer
+			&:before
+				content: ''
+				display: block
+				width: 14px
+				height: 2px
+				background-color: $color_blue
+			&:after
+				content: ''
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				display: block
+				width: 2px
+				height: 14px
+				background-color: $color_blue
+			&:hover
+				background-color: $color_pink
+				transition: 0.5s all
 
 .uberx
 	min-height: 896px
@@ -264,3 +289,45 @@ nav
 		line-height: 24px
 		color: #222222
 		text-align: center
+
+.conditions
+	padding: 68px 0 84px 0
+	&_box
+		margin: 33px 0
+		&_nmb
+			margin-bottom: 0
+	&_header
+		font-size: 22px
+		line-height: 24px
+		font-weight: 400
+		color: $color_blue
+		&_down
+			color: $color_pink
+	&_list
+		margin-top: 22px
+		list-style-type: none
+		padding-left: 50px
+		li
+			font-size: 17px
+			position: relative
+			font-weight: 300
+			line-height: 24px
+			color: #222222
+			margin-bottom: 10px
+			&:before
+				content: ''
+				width: 21px
+				height: 20px
+				background: url('../icons/check_blue.svg') center (center / cover) no-repeat
+				display: block
+				position: absolute
+				left: -32px
+				top: 3px
+		&_down
+			li
+				&:before
+					background: url('../icons/check_red.svg') center (center / cover) no-repeat
+	&_under_text
+		font-size: 17px
+		font-weight: 300
+		color: $color_blue
