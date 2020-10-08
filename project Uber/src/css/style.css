@@ -4,17 +4,15 @@
 
 header {
     position: relative;
-    height: 50px;
+    height: 50px; 
 }
-
 nav {
-    position: fixed;
-    width: 100%;
+    position: fixed; 
+    width: 100%; 
     height: 50px;
     background-color: #212121;
-    z-index: 2;
+    z-index: 2; 
 }
-
 .menu {
     display: flex;
     justify-content: space-between;
@@ -36,10 +34,10 @@ nav {
 
 .subheader {
     position: absolute;
-    top: 50px;
+    top: 50px; 
     width: 100%;
     height: 84px;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0,0,0, .6);
 }
 
 .subheader .subheader_logo {
@@ -95,7 +93,6 @@ nav {
     background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
     padding: 150px 0 135px 0;
 }
-
 .promo .promo_header {
     color: #ffffff;
     font-weight: 700;
@@ -105,8 +102,7 @@ nav {
     margin: 0;
     text-align: center;
 }
-
-.promo .promo_subheader {
+.promo .promo_subheader  {
     color: #ffffff;
     font-weight: 700;
     text-transform: uppercase;
@@ -190,7 +186,7 @@ nav {
     width: 343px;
 }
 
-.reasons .reasons_block .reasons_descr .reasons_subtitle {
+.reasons .reasons_block .reasons_descr .reasons_subtitle{
     line-height: 21px;
     color: #1eacc7;
     font-size: 17px;

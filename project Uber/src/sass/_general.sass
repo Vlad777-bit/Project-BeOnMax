@@ -63,6 +63,9 @@ nav
 		text-transform: uppercase
 		text-align: right
 		line-height: 12px
+		&:hover
+			text-decoration: none
+			color: #fff
 	&_btn
 		margin-top: 19px
 		width: 172px
@@ -77,6 +80,7 @@ nav
 		font-weight: 400
 		text-transform: uppercase
 		+btn_hover
+
 
 .promo
 	min-height: 800px
@@ -164,10 +168,10 @@ nav
 	text-transform: uppercase
 	text-align: center
 	z-index: 2
-	&_white
+	&_white 
 		background-color: #fff
 		color: #000
-	&_min
+	&_min 
 		width: 76px
 
 .title
@@ -181,7 +185,7 @@ nav
 	text-transform: uppercase
 	text-align: center
 	z-index: 2
-	&_white
+	&_white 
 		color: #fff
 
 .subtitle
@@ -192,16 +196,17 @@ nav
 	font-weight: 400
 	text-align: center
 	z-index: 2
-	&_white
+	&_white 
 		color: #fff
 
-.mobile
+	
+.mobile 
 	min-height: 864px
 	padding: 48px 0 79px 0
 	background: url('../img/bg/mobile_app.png') center (center / cover) no-repeat
-	.row
+	.row 
 		margin-top: 32px
-	&_item
+	&_item 
 		position: relative
 		width: 320px
 		height: 280px
@@ -228,7 +233,7 @@ nav
 			text-transform: uppercase
 			text-align: center
 		&_plus
-			display: flex
+			display: flex 
 			justify-content: center
 			align-items: center
 			position: absolute
@@ -244,42 +249,43 @@ nav
 			&:before
 				content: ''
 				display: block
-				width: 14px
-				height: 2px
+				width: 14px 
+				height: 2px 
 				background-color: $main-color
 				transition: 0.3s all
-			&:after
+			&:after 
 				content: ''
-				position: absolute
+				position: absolute 
 				left: 50%
 				transform: translateX(-50%)
-				display: block
+				display: block 
 				height: 14px
 				width: 2px
 				background-color: $main-color
 				transition: 0.3s all
-			&:hover
-				&:before, &:after
+			&:hover 
+				&:before, &:after 
 					background-color: $second-color
 
-.choice
+
+.choice 
 	position: relative
 	min-height: 895px
 	padding: 57px 0 138px 0
 	background: url('../img/bg/mobile_app.png') center (center / cover) no-repeat
-	&_img
+	&_img 
 		position: relative
 		display: block
 		margin: 56px auto 0 auto
 		z-index: 2
-	&_descr
+	&_descr 
 		text-align: center
 		color: #222222
 		font-size: 17px
 		font-weight: 300
 		line-height: 24px
-	.black
-		position: absolute
+	.black 
+		position: absolute 
 		top: 0
 		left: 0
 		height: 499px
@@ -289,52 +295,52 @@ nav
 
 .require
 	padding: 68px 0 84px 0
-	&_block
+	&_block 
 		margin: 33px 0
 		&_nmb
 			margin-bottom: 0px
-	&_title
+	&_title 
 		color: #1ca8c3
 		font-size: 22px
 		font-weight: 400
-	&_list
+	&_list 
 		list-style-type: none
 		padding-left: 50px
 		margin-top: 22px
-		li
+		li 
 			position: relative
 			font-size: 17px
 			font-weight: 300
 			line-height: 24px
 			margin-bottom: 10px
-			&:before
+			&:before 
 				content: ''
-				display: block
+				display: block 
 				position: absolute
 				left: -32px
 				top: 3px
-				width: 21px
+				width: 21px 
 				height: 20px
 				background: url('../icons/check_blue.svg') center (center / cover) no-repeat
-	&_descr
+	&_descr 
 		margin-top: 25px
 		font-size: 17px
 		font-weight: 300
 		line-height: 24px
 		color: #1ca8c3
-	.warning
+	.warning 
 		.require_title
 			color: $second-color
 		.require_list
-			li
+			li 
 				&:before
 					background: url('../icons/check_red.svg') center (center / cover) no-repeat
-.world
+.world 
 	position: relative
 	min-height: 717px
 	padding: 49px 0
 	background: url('../img/bg/map.jpg') center (center / cover) no-repeat
-	&_link
+	&_link 
 		position: absolute
 		left: 50%
 		transform: translateX(-50%)
@@ -345,13 +351,13 @@ nav
 		line-height: 68px
 		text-transform: uppercase
 		color: #1fbad6
-		&:hover
+		&:hover 
 			text-decoration: none
 			color: #fff
-footer
+footer 
 	padding: 14px 23px 39px 23px
-	a
-		&:hover
+	a 
+		&:hover 
 			text-decoration: none
 .footer
 	&_divider
@@ -360,53 +366,53 @@ footer
 		background-color: #1fbad6
 		margin: 0 auto
 	&_wrapper
-		display: flex
+		display: flex 
 		justify-content: space-between
 		align-items: flex-start
 		padding-top: 32px
-	&_wrapper > div
+	&_wrapper > div 
 		width: 33%
 		&:nth-child(3)
-			display: flex
+			display: flex 
 			justify-content: flex-end
 	&_social
 		width: 160px
 		display: flex
 		justify-content: space-between
-		&_item
-			display: flex
+		&_item 
+			display: flex 
 			justify-content: center
 			align-items: center
-			margin: 0 4px
+			margin: 0 4px 
 			width: 32px
 			height: 32px
 			background-color: #070716
 			border-radius: 100%
-			i
+			i 
 				color: #fff
 	&_links
 		width: 390px
 		margin: 0 auto
-		&_main
-			display: flex
+		&_main 
+			display: flex 
 			justify-content: space-between
 			padding: 0 10px
-			a
+			a 
 				color: #070716
 				font-size: 15px
 				font-weight: 300
 				text-transform: uppercase
-		&_sub
-			display: flex
+		&_sub 
+			display: flex 
 			justify-content: space-between
 			margin-top: 10px
-			a
+			a 
 				color: #999999
 				font-size: 11px
 				font-weight: 300
 				text-transform: uppercase
-		&_lang
-			display: block
+		&_lang 
+			display: block 
 			margin: 0 auto
 			color: #1fbad6
 			font-size: 11px
@@ -414,6 +420,5 @@ footer
 			margin-top: 19px
 			text-transform: uppercase
 			text-align: center
-.xs-visible
+.xs-visible 
 	display: none
-	
