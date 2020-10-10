@@ -87,6 +87,32 @@
     }
 }
 
-@media (max-width: 450px) {
-    
+@media (max-width: 470px) {
+    .promo {
+
+        &__header,
+        &__subheader {
+            text-align: center;
+        }
+
+        .promo__icons {
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__icon {
+            margin: 10px 20px;
+        }
+    }
+}
+
+@media (max-width: 340px) {
+    .promo {
+        .button {
+            &_main {
+                width: 100%;
+            }
+        }
+    }
 }
