@@ -6,12 +6,28 @@
 }
 
 @media (max-width: 789px) {
-    .advantages__icons {
-        flex-wrap: wrap;
-    }
+    .container {
+        .advantages__icons {
+            flex-wrap: wrap;
+        }
 
-    .advantages__icon {
-        margin: 0 20px;
+        .advantages__icon {
+            margin: 0 20px;
+        }
+
+        .title_left {
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .consultation__descr {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .feed-form {
+            margin: 36px auto;
+        }
     }
 }
 
@@ -103,6 +119,14 @@
 
         &__icon {
             margin: 10px 20px;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .container {
+        .feed-form {
+            width: 100%;
         }
     }
 }
