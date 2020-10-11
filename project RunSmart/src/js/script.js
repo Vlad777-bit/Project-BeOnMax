@@ -16,27 +16,20 @@
 //     });
 //   });
 
-// const slider = tns({
-//     container: '.carousel__inner',
-//     speed: 1200,
-//     items: 1,
-//     slideBy: 'page',
-//     autoplay: false,
-//     nav: false,
-//     controls: false
-// });
+const slider = tns({
+    container: '.carousel__inner',
+    speed: 1200,
+    items: 1,
+    slideBy: 'page',
+    autoplay: false,
+    nav: false,
+    controls: false
+});
 
-// document.querySelector('.prev').addEventListener('click', function () {
-//     slider.goTo('prev');
-// });
+document.querySelector('.prev').addEventListener('click', function () {
+    slider.goTo('prev');
+});
 
-// document.querySelector('.next').addEventListener('click', function () {
-//     slider.goTo('next');
-// });
-
-$('.carousel__inner').owlCarousel({
-    number: 1,
-    loop:true,
-    margin:10,
-    nav:true
+document.querySelector('.next').addEventListener('click', function () {
+    slider.goTo('next');
 });
