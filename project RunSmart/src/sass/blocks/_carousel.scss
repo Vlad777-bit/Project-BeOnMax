@@ -6,8 +6,15 @@
         margin: 0 auto;
     }
 
-    .slick-prev,
-    .slick-next {
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .prev,
+    .next {
         position: absolute;
         top: 50%;
         left: -66px;
@@ -21,7 +28,7 @@
         }
     }
 
-    .slick-next {
+    .next {
         right: -66px;
         left: auto;
     }
