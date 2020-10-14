@@ -6,15 +6,15 @@
         margin: 0 auto;
     }
 
-    .tns-item {
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-    }
+    // .tns-item {
+    //     img {
+    //         display: block;      // При использовании библиотеки tiny-slider 
+    //         margin: 0 auto;
+    //     }
+    // }
 
-    .prev,
-    .next {
+    .slick-prev,                    // При использовании библиотеки tiny-slider, переименовать .slick-next .slick-prev в next и prev
+    .slick-next {
         position: absolute;
         top: 50%;
         left: -66px;
@@ -28,7 +28,7 @@
         }
     }
 
-    .next {
+    .slick-next {
         right: -66px;
         left: auto;
     }
