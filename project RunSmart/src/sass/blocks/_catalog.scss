@@ -45,7 +45,8 @@
     &__content {
         margin-top: 60px;
         display: none;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, auto);
+        justify-content: center;
         gap: 20px;
 
         &_active {
@@ -59,6 +60,7 @@
         border: 2px solid #e8e8e8;
         padding: 20px 20px 26px;
         overflow: hidden;
+        justify-self: center;
 
         &__img {
             display: block;

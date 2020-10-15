@@ -2,8 +2,13 @@
     padding: 81px 0 82px;
 
     &__inner {
-        width: 750px;
+        max-width: 750px;
         margin: 0 auto;
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
     }
 
     // .tns-item {
@@ -13,7 +18,8 @@
     //     }
     // }
 
-    .slick-prev,                    // При использовании библиотеки tiny-slider, переименовать .slick-next .slick-prev в next и prev
+    .slick-prev,
+    // При использовании библиотеки tiny-slider, переименовать .slick-next .slick-prev в next и prev
     .slick-next {
         position: absolute;
         top: 50%;
