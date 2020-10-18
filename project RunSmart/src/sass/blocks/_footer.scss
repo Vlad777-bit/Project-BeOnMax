@@ -52,6 +52,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: 0.4s all;
+
+            &:hover {
+                box-shadow: 3px 3px 20px #ffffff;
+            }
         }
     }
 }
