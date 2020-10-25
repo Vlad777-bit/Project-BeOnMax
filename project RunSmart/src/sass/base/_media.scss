@@ -207,6 +207,25 @@
             width: 100%;
         }
     }
+
+    .modal {
+        .modal__close {
+            right: 0;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .overlay {
+        .modal {
+            width: 100%;
+            padding: 38px 15px 40px 15px;
+        }
+
+        .feed-form {
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 370px) {
