@@ -34,7 +34,7 @@ $(document).ready(function() {
     toggleSlide('.catalog-item__link');
     toggleSlide('.catalog-item__back');
 
-    // Modal
+    // Modal windows
 
     $('[data-modal=consultation]').on('click', function() {
         $('.overlay, #consultation').fadeIn('slow');
@@ -49,6 +49,45 @@ $(document).ready(function() {
             $('.overlay, #order').fadeIn('slow');
         });
     });
+
+    // Validate forms
+
+    function validateForm(form) {
+        $(form).validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                phone: {
+                    required: true,
+                    minlength: 4
+                },
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: {
+                    required: 'Введите своё имя',
+                    minlength: jQuery.validator.format('Минимальное кол-во символов {0}')
+                },
+                phone: {
+                    required: 'Введите свой номер телефона',
+                    minlength: jQuery.validator.format('Минимальное кол-во чисел {0}')
+                },
+                email: {
+                    required: 'Введите свой email',
+                    email: 'Ваш email должен быть в формате: name@domain.com'
+                }
+            }
+        });
+    }
+
+    validateForm('#consultation form');
+    validateForm('#order form');
+    validateForm('#consultation-form');
 });
 
 // const slider = tns({

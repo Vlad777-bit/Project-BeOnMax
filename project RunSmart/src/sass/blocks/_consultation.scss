@@ -9,4 +9,14 @@
         font-weight: 500;
         line-height: normal;
     }
+
+    .error {
+        border: 2px solid red;
+    }
+
+    label.error {
+        color:#ffffff;
+        margin-bottom: 10px;
+        border: none;
+    }
 }
