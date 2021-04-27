@@ -50,8 +50,10 @@ $(document).ready(function() {
         });
     });
 
-    // Validate forms
-
+    /**
+     *  Валидация формы
+     * @param {string} Пробрасываем class или id формы для валидации
+     */
     function validateForm(form) {
         $(form).validate({
             rules: {
@@ -83,27 +85,15 @@ $(document).ready(function() {
                 }
             }
         });
-    }
+    } 
 
     validateForm('#consultation form');
     validateForm('#order form');
     validateForm('#consultation-form');
+
+    /**
+     * Маска для телефона
+     */
+
+    $('input[name="phone"]').mask("+7 (999) 999-99-99");
 });
-
-// const slider = tns({
-//     container: '.carousel__inner',
-//     speed: 1200,
-//     items: 1,
-//     slideBy: 'page',
-//     autoplay: false,
-//     nav: false,
-//     controls: false
-// });
-
-// document.querySelector('.prev').addEventListener('click', function () {
-//     slider.goTo('prev');
-// });
-
-// document.querySelector('.next').addEventListener('click', function () {
-//     slider.goTo('next');
-// });
