@@ -171,7 +171,7 @@
                     margin-top: 20px;
                 }
 
-                &:before {
+                &:not(:last-child):before {
                     content: '';
                     width: 5px;
                     height: 5px;
@@ -179,6 +179,15 @@
                     position: absolute;
                     top: 6px;
                     left: -14px;
+                }
+
+                &:last-child {
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    display: block;
+                    color: $main_color;
                 }
             }
         }
